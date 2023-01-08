@@ -358,6 +358,9 @@ a:hover{
     .left .companies{
         width: 29.813rem;
     }
+    footer{
+        height: 1.5rem;
+    }
 }
 @media (min-width:50rem) {
     .menu{

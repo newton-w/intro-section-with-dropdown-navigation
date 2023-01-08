@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav-container">
+      <div class="logo"><img src="./images/logo.svg" alt=""></div>
+      <div class="mobile">
+        <div class="menu">
+          <div class="dropdown" id="drr">
+            <button class="dropbtn">Features
+              <div class="arrow"></div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#"><img src="./images/icon-todo.svg" alt=""> Todo list</a>
+              <a href="#"><img src="./images/icon-calendar.svg" alt=""> Calender</a>
+              <a href="#"><img src="./images/icon-reminders.svg" alt=""> Reminders</a>
+              <a href="#"><img src="./images/icon-planning.svg" alt=""> Planning</a>
+            </div>
+          </div>
+          <div class="dropdown" id="srr">
+            <button class="dropbtn">Company
+              <div class="arrow"></div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">History</a>
+              <a href="#">Our Blog</a>
+              <a href="#">Team</a>
+            </div>
+          </div>
+          <div class="links">
+            <a href="#">Careers</a>
+            <a href="#">About </a>
+          </div>
+        </div>
+        <div class="btns">
+          <button>Login</button>
+          <button>Register</button>
+        </div>
+      </div>
+      <div class="toggle"></div>
+    </div>
+  </header>
+  <main>
+    <div class="showcase">
+      <div class="left">
+        <div class="text-header">
+          Make remote work
+        </div>
+        <p class="paragraph">
+          Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+          productivity soar.
+        </p>
+        <a href="#" class="button">Learn more</a>
+        <div class="companies">
+          <ul>
+            <li class="databiz"><img src="/images/client-databiz.svg" alt=""></li>
+            <li class="audiophile"><img src="/images/client-audiophile.svg" alt="" height="26px" width="53px"></li>
+            <li class="meet"><img src="/images/client-meet.svg" alt="" height="0.938rem" width="65px"></li>
+            <li class="client-maker"><img src="/images/client-maker.svg" alt="" height="1.125rem" width="59px"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <picture>
+          <source media="(min-width:800px)" srcset="./images/image-hero-desktop.png">
+          <img src="./images/image-hero-mobile.png" alt="">
+        </picture>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+<footer>
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">&nbsp;Frontend Mentor</a>.
+  Coded by <a href="#">&nbsp;Newton_W</a>.
+</footer>
+</html>
